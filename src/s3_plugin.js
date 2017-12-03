@@ -63,7 +63,8 @@ module.exports = class S3Plugin {
 
     this.clientConfig = {
       s3Options,
-      maxAsyncS3: 50
+      maxAsyncS3: 50,
+      disableMulipartUpload: true
     }
 
     this.noCdnizer = !Object.keys(this.cdnizerOptions).length
