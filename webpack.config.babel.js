@@ -44,7 +44,7 @@ var config = {
     'cdnizer',
     'aws-sdk',
     'lodash',
-    's3',
+    's3-compatible-bos',
     'recursive-readdir',
     'progress'
   ],
